@@ -6,16 +6,24 @@
 
 }
 
-.body{
-    background-color: rgb(17, 0, 255);
+.barre{
+    
+    width: 50%;
+    height: 30px;
+    margin: 0 auto;
+    background-image: linear-gradient(rgb(80, 2, 2), rgb(8, 18, 158));
+    position: sticky;
+    top: 10px;
+    
 }
 nav{
-    width: 65%;
-    height: 50px;
+    width: 70%;
+    height: 40px;
     margin: 0 auto;
     background-color: rgb(255, 0, 0);
     position: sticky;
     top: 10px;
+    border-radius:  90px 90px 30px 30px;
 }
 
 nav ul{
@@ -37,6 +45,7 @@ nav a{
 }
 
 nav a:hover{
+    width: 99%;
     color: rgb(25, 0, 253);
     border-bottom: 2px solid rgb(38, 0, 255);
 }
@@ -62,24 +71,20 @@ nav > ul li:hover .sous{
     background-color: rgba(200, 200, 200, 0.1);
 }
 .panier > a::after{
-    content:"🛒";
-    font-size: 12px;
-}
-.deroulant > a::after{
-    content:"▼";
-    font-size: 12px;
+    content:"🛒 ";
+    font-size: 15px;
 }
 .Jeux > a::after{
     content:"🎮";
-    font-size: 12px;
+    font-size: 15px;
 }
 .vidéo > a::after{
     content:"🎥";
-    font-size: 12px;
+    font-size: 15px;
 }
 .Produit > a::after{
     content:"📦";
-    font-size: 12px;
+    font-size: 15px;
 }
 .Valider > a::after{
     content:"✔️";
@@ -121,7 +126,7 @@ nav ul li{
 }
 .contenant{
     display: block;
-    border: 15px;
+    border: 12px;
     border-color: red;
     margin-left: 15%;
     margin-right: 15%;
