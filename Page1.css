@@ -6,7 +6,9 @@
 
 }
 
-
+.body{
+    background-color: rgb(17, 0, 255);
+}
 nav{
     width: 65%;
     margin: 0 auto;
