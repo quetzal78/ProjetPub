@@ -5,7 +5,11 @@
     background-position: top;
 
 }
-
+body {
+        background-image:url(/Projetpub/image/imagefondbody.jpg);
+        background-attachment:fixed;
+        background-size: 100%;
+    }
 .barre{
     
     width: 50%;
@@ -129,8 +133,4 @@ nav ul li{
 .contenant{
     display: block;
     border: 12px;
-    border-color: red;
-    margin-left: 15%;
-    margin-right: 15%;
-    margin-top: 5%;
 }
