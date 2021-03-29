@@ -11,8 +11,9 @@
 }
 nav{
     width: 65%;
+    height: 50px;
     margin: 0 auto;
-    background-color: rgb(25, 0, 255);
+    background-color: rgb(255, 0, 0);
     position: sticky;
     top: 10px;
 }
@@ -119,7 +120,9 @@ nav ul li{
     position: relative;
 }
 .contenant{
-    float: left;
+    display: block;
+    border: 15px;
+    border-color: red;
     margin-left: 15%;
     margin-right: 15%;
     margin-top: 5%;
