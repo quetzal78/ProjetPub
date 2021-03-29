@@ -4,6 +4,7 @@
 	<meta charset="utf-8"/>
 	<title>Page d'inscription</title>
     <link rel="stylesheet" href="inscription_client.css">
+	<link rel="stylesheet" href="/ProjetPub/inscription client/inscription.php">
 </head>
 
 <body>
@@ -20,12 +21,12 @@
 
 			<table class="Page" class="border">
 				<tr>
-					<td ><label class="BGlestitres">Nom</label></td>
-					<td><input type="text" placeholder="saisir votre nom"/> </td>
+					<td ><label action="inscription_client.htm" class="BGlestitres" method="GET">Nom</label></td>
+					<td><input type="text" name="nom" placeholder="saisir votre nom"/> </td>
 				</tr>
 				<tr>
-					<td ><label class="BGlestitres">Prénom</label></td>
-					<td><input type="text" placeholder="saisir votre prenom"/></td>
+					<td ><label action="inscription_client.htm" class="BGlestitres" method="GET">Prénom</label></td>
+					<td><input type="text" name="prenom" placeholder="saisir votre prenom"/></td>
 				</tr>
 				<tr>
 					<td ><label class="BGlestitres">Mail</label></td>
@@ -71,7 +72,10 @@
 					<td><input type="text" placeholder="saisir votre adresse"/> </td>
 				</tr>
 				<tr>
-					<td colspan="2"><input type="submit" value="Envoyer"/>  <input type="reset" value="Annuler"/></td>
+					<td colspan="2">
+						<input type="submit" value="Envoyer"/>
+						<input type="reset" value="Annuler"/>
+					</td>
 				</tr>
 			</table>
         </center>
@@ -79,3 +83,5 @@
 </table>
 </body>
 </html>
+<p $nom = nom; $prenom = prenom> Bonjour, </text>  </p>
+
