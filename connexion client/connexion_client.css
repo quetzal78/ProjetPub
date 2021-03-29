@@ -1,0 +1,48 @@
+*{
+    margin: 0px;
+      padding: 0px;
+      font-family: Avenir, sans-serif;
+      background-position: top;
+  
+  }
+    
+  .Page{
+    width: 60%;
+      height: 500px;
+      margin: 0 auto;
+      background-image: linear-gradient(red, yellow);
+      position: sticky;
+      top: 10px;
+      border-radius: 30px;
+     
+  }
+  .icone{
+    width: 240px;
+    height: 520px;
+    text-align: center;
+    display: table-cell;
+    background-repeat:no-repeat;
+  }
+  
+  .BGlestitres{
+    font-family: Impact, "Arial Black", Arial, Verdana, sans-serif;
+    font-size: 20px;
+  
+  }
+  .titre{
+    border-radius: 30px;
+    width: 80%;
+    height: 50px;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    background-image: linear-gradient(red, yellow);
+    font-family: Impact, "Arial Black", Arial, Verdana, sans-serif;
+    font-size: 50px;
+  }
+  body {
+    background-image:url(/Projetpub/image/imagefondbody.jpg);
+    background-attachment:fixed;
+    background-size: 100%;
+    background-repeat:no-repeat;
+  }
