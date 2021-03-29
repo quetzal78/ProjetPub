@@ -59,10 +59,10 @@ nav > ul li:hover .sous{
     background-color: rgba(200, 200, 200, 0.1);
 }
 .panier{
-    content:"";
+    content:dive#panier"";
     font-size: 12px;
 }
-div#avatar {
+div#panier {
     background-image: url(image panier.png);
     background-repeat: no-repeat;
     width: 80px;
