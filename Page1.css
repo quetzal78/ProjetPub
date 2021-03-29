@@ -9,6 +9,7 @@
 
 nav{
     width: 65%;
+    height: 50px;
     margin: 0 auto;
     background-color: rgb(25, 0, 255);
     position: sticky;
