@@ -8,7 +8,7 @@
 
 
 nav{
-    width: 60%;
+    width: 65%;
     margin: 0 auto;
     background-color: rgb(25, 0, 255);
     position: sticky;
@@ -76,6 +76,18 @@ nav > ul li:hover .sous{
 }
 .Produit > a::after{
     content:"📦";
+    font-size: 12px;
+}
+.Valider > a::after{
+    content:"✔️";
+    font-size: 12px;
+}
+.Sauvgarder > a::after{
+    content:"⏺️";
+    font-size: 12px;
+}
+.echec > a::after{
+    content:"♟️ ";
     font-size: 12px;
 }
 .sous{
