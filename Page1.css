@@ -9,6 +9,7 @@ body {
         background-image:url(/Projetpub/image/imagefondbody.jpg);
         background-attachment:fixed;
         background-size: 100%;
+        background-repeat:no-repeat;
     }
 .barre{
     
