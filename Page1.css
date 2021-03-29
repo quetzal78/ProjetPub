@@ -5,6 +5,30 @@
     background-position: top;
 
 }
+.inscription{
+    width: 100px;
+    text-align: center;
+    vertical-align: middle;
+    display: table-cell;
+}
+.recherche{
+
+    width: 1300px;
+    height: 300px;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    
+
+}
+.icone{
+    width: 300px;
+    height: 20px;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+  }
+    
 body {
         background-image:url(/Projetpub/image/imagefondbody.jpg);
         background-attachment:fixed;
