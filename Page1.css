@@ -16,11 +16,12 @@
     top: 10px;
     
 }
+
 nav{
     width: 70%;
     height: 40px;
     margin: 0 auto;
-    background-color: rgb(255, 0, 0);
+    background-image: linear-gradient(red, yellow);
     position: sticky;
     top: 10px;
     border-radius:  90px 90px 30px 30px;
@@ -110,6 +111,7 @@ nav > ul li:hover .sous{
     content:"➕ ";
     font-size: 12px;
 }
+
 .sous{
     display: none;
     box-shadow: 0px 1px 2px rgb(255, 255, 255);
