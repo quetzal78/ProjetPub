@@ -11,11 +11,12 @@
 }
 nav{
     width: 65%;
-    height: 50px;
+    height: 40px;
     margin: 0 auto;
-    background-color: linear-gradient(red, yellow);
+    background-image: linear-gradient(red, yellow);
     position: sticky;
     top: 10px;
+    border-radius: 30px;
 }
 
 nav ul{
