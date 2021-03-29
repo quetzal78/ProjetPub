@@ -58,17 +58,10 @@ nav > ul li:hover .sous{
     border-bottom: none;
     background-color: rgba(200, 200, 200, 0.1);
 }
-.panier{
-    content:dive#panier"";
+.panier > a::after{
+    content:"V";
     font-size: 12px;
-}
-div#panier {
-    background-image: url(image panier.png);
-    background-repeat: no-repeat;
-    width: 80px;
-    height: 103px;
-    padding: 0;
-  }
+
 .deroulant > a::after{
     content:"▼";
     font-size: 12px;
