@@ -61,7 +61,7 @@ nav > ul li:hover .sous{
 .panier > a::after{
     content:"V";
     font-size: 12px;
-
+}
 .deroulant > a::after{
     content:"▼";
     font-size: 12px;
