@@ -8,7 +8,7 @@
 
 
 nav{
-    width: 75%;
+    width: 50%;
     margin: 0 auto;
     background-color: rgb(25, 0, 255);
     position: sticky;
@@ -57,6 +57,10 @@ nav > ul li:hover .sous{
 .sous a:hover{
     border-bottom: none;
     background-color: rgba(200, 200, 200, 0.1);
+}
+.panier{
+    content:"";
+    font-size: 12px;
 }
 .deroulant > a::after{
     content:"▼";
